@@ -50,7 +50,7 @@ export class AppComponent implements OnInit {
     this.doSearch();
   }
   doSearch(page?: number) {
-
+throw new Error();
     this.loading = true;
     this._pictureService.searchPhotosByTags(this.searchString, page + 1)
       .do((data) => {
