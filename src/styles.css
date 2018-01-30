@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body{
+  background-color: rgb(172, 182, 187)
+}
+.container {
+ margin-top: 20px;
+
+}
+
+.header {
+  position: fixed;
+  background-color: rgb(172, 182, 187);
+  z-index: 1234;
+  padding-top: 15px;
+}
+
+.search{
+  right: 75px;
+}
+
+.row {
+  padding-bottom: 10px;
+}
+img {
+  width: 100%;
+}
+.col-md-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
